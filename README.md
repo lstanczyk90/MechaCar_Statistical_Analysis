@@ -6,7 +6,7 @@ The purpose of this analysis is to assist AutosRUs and its upper management by r
 
 ## Linear Regression to Predict MPG
 
-![alt text]()
+![alt text](https://github.com/lstanczyk90/MechaCar_Statistical_Analysis/blob/dad9c31783ec6eeb106887f514935af20ec37099/Screenshots/mecha_multiple_regression.png)
 
 As seen in the above output, we considered the MPG of the MechaCar as the independent variable and used the following metrics to try to predict MPG: Vehicle Length, Vehicle Weight, Spoiler Angle, Ground Clearance, AWD.
 
@@ -22,11 +22,11 @@ Our analysis yielded the following findings:
 
 ### Total Summary
 
-![alt text]()
+![alt text](https://github.com/lstanczyk90/MechaCar_Statistical_Analysis/blob/dad9c31783ec6eeb106887f514935af20ec37099/Screenshots/total_summary.png)
 
 ### Per Lot Summary
 
-![alt text]()
+![alt text](https://github.com/lstanczyk90/MechaCar_Statistical_Analysis/blob/dad9c31783ec6eeb106887f514935af20ec37099/Screenshots/lot_summary.png)
 
 As seen in the above tables, the variance in PSI does not exceed 100 PSI for the entire manufacturing process (we noted a Variance of 62.29356 in the aggregate). However, in reviewing the Per Lot summary statistics, there appears to be an abnormal (and above-spec) variance of 170.286. Whereas the other two lots all have variances that are well within manufacturer specifications, Lot 3 must be investigated. As you can tell from the above table, Lot 3 is the only lot with such a variance, and this is further evidenced by the mean and median differing materially between Lot 3 and Lots 1-2. Lot 3 and the reason behind the material variance must be investigated. 
 
@@ -34,19 +34,19 @@ As seen in the above tables, the variance in PSI does not exceed 100 PSI for the
 
 ### *Total T-Test:*
 
-![alt text]()
+![alt text](https://github.com/lstanczyk90/MechaCar_Statistical_Analysis/blob/dad9c31783ec6eeb106887f514935af20ec37099/Screenshots/population_ttest.png)
 
 ### *Lot 1 T-Test:*
 
-![alt text]()
+![alt text](https://github.com/lstanczyk90/MechaCar_Statistical_Analysis/blob/dad9c31783ec6eeb106887f514935af20ec37099/Screenshots/Lot1_ttest.png)
 
 ### *Lot 2 T-Test:*
 
-![alt text]()
+![alt text](https://github.com/lstanczyk90/MechaCar_Statistical_Analysis/blob/main/Screenshots/Lot2_ttest.png)
 
 ### *Lot 3 T-Test:*
 
-![alt text]()
+![alt text](https://github.com/lstanczyk90/MechaCar_Statistical_Analysis/blob/main/Screenshots/Lot3_ttest.png)
 
 In this test, our hypotheses are as follows:
 
